@@ -1,9 +1,12 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 import { PropsWithChildren } from 'react';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const wantedSansVariable = localFont({
+  src: '../public/fonts/WantedSansVariable.woff2',
+  display: 'swap',
+});
 
 const metadata: Metadata = {
   title: '우테코 따라잡기',
@@ -12,8 +15,8 @@ const metadata: Metadata = {
 
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ko-KR">
+      <body className={wantedSansVariable.className}>{children}</body>
     </html>
   );
 };
