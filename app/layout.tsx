@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+
 import { PropsWithChildren } from 'react';
+
 import './globals.css';
 
 const wantedSansVariable = localFont({
