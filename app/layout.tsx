@@ -3,6 +3,8 @@ import localFont from 'next/font/local';
 
 import { type PropsWithChildren } from 'react';
 
+import QueryProvider from '@/providers/query-provider';
+
 import './globals.css';
 
 const wantedSansVariable = localFont({
@@ -18,7 +20,9 @@ const metadata: Metadata = {
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="ko-KR">
-      <body className={wantedSansVariable.className}>{children}</body>
+      <QueryProvider>
+        <body className={wantedSansVariable.className}>{children}</body>
+      </QueryProvider>
     </html>
   );
 };
