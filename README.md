@@ -41,8 +41,8 @@ API 주소 : https://not-woowacourse-api.yopark.dev
 
 ## 구현해야 할 기능
 
-> Surveey 시연 링크 : (추가 예정)  
-> Surveey 시연 레포 : (추가 예정)
+> Surveey 시연 링크 : https://not-woowacourse-2-surveey-frontend-for-example.vercel.app  
+> Surveey 시연 레포 : https://github.com/yoopark/not-woowacourse-2-surveey-frontend-for-example
 
 나만의 설문조사를 만들어봅시다 ✨
 
