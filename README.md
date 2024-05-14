@@ -37,6 +37,9 @@ API 주소 : https://not-woowacourse-api.yopark.dev
 
 이번 과제에서 사용할 API는 **0.x(공통), 2.x(Surveey)** 입니다.
 
+> ❗️ Swagger만 읽고서는 2.x API를 이해하기 힘드실 것 같습니다.  
+> [우테코 따라잡기 노션 - 2.x API (Schema, Form) 상세 사용 방법](https://yopark.notion.site/2-x-API-Schema-Form-ac2229daeb954f60be5b383e72fc8ae3)을 함께 읽어주세요.
+
 > 이걸 만든 사람은 백엔드 개발자가 아닙니다. 사용해보시고 오류나 빈틈이 있으면 채널톡 부탁드립니다 😭
 
 ## 구현해야 할 기능
@@ -54,10 +57,6 @@ API 주소 : https://not-woowacourse-api.yopark.dev
 - 필수/선택이 명시적으로 표현되어야 합니다.
 
 > 토스 제품 디자인 원칙(PP: Product Principle)엔 “One thing for One Page”라는 원칙이 있어요. 화면 하나에는 명확한 목표 하나만 있어야 한다는 건데요. 이 원칙에 따라 제품을 만들다 보면 ‘퍼널’이 많이 생깁니다. 토스페이먼츠의 제품도 예외는 아니에요. 그래서 저희 프론트엔드 개발자들은 퍼널의 흐름을 잘 관리해야 하죠. 퍼널이란 사용자가 웹사이트나 애플리케이션을 방문해서 최종 목표까지 달성하는데 거치는 단계를 뜻합니다. [출처](https://toss.tech/article/engineering-note-1)
-
-설문 문항 타입의 종류는 다음과 같습니다.
-
-> 백엔드를 아직 구현 못해서 ... 구현하고 말씀드릴게요ㅜㅜ
 
 ## 기술 스택 관련 제한사항
 
